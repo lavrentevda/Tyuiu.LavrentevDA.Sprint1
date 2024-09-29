@@ -5,7 +5,7 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task2.V16.Lib
     {
         public double CalculatePerimetrCircle(int value)
         {
-            return value * value;
+            return value * 6.283166666666666666;
         }
     }
 }
