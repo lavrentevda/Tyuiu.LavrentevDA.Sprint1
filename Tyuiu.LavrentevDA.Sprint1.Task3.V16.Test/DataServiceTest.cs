@@ -8,9 +8,9 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task3.V16.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x1 = 5.53;
-            double x2 = 10.1;
-            double wait = 55.853;
+            double x1 = 1;
+            double x2 = 1;
+            double wait = -2;
             var res = ds.CoeffOfQuadraticEquation(x1, x2);
             Assert.AreEqual(wait, res);
           

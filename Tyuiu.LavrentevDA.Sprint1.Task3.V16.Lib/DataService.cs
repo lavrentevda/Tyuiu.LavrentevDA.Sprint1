@@ -5,7 +5,7 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task3.V16.Lib
     {
         public double CoeffOfQuadraticEquation(double x1, double x2)
         {
-           return x1 * x2;
+           return x1 * x2 -3;
         }
     }
 }
