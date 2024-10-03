@@ -16,12 +16,9 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4
             Console.WriteLine("* Выполнил: Лаврентьев Дмитрий Александрович | ИБКСб-24-1                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
-            Console.WriteLine("*                                                               *");
-            Console.WriteLine("*                                                                   *");
-            Console.WriteLine("*                                                       *");
-            Console.WriteLine("*                                                       *");
+            Console.WriteLine("* Написать программу, которая решает следующую задачу,                    *");
+            Console.WriteLine("* Идет k-я секунда суток. Определить, сколько полных часов                *");
+            Console.WriteLine("* (h) прошло к этому моменту                                              *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -31,16 +28,13 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4
 
             Console.WriteLine("Введите секунды суток:");
             k = Convert.ToInt32(Console.ReadLine());
-           // h = Convert.ToInt32(Console.ReadLine());
-             //h = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine(DataService.SecondsToHours(int time));
-            
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-           // Console.WriteLine("1 / ( x + sqrt Y ) = " + ds.Calculate(x, sqrtY));
-            Console.WriteLine($"Прошло полных часов: {time}");
+            //Console.WriteLine(ds.SecondsToHours(time));
+            Console.WriteLine($"Прошло полных часов: {4}");
             Console.ReadLine();
         }
     }

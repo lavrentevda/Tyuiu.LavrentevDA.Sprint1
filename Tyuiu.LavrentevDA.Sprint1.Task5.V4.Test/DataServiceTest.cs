@@ -9,20 +9,11 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4.Test
         {
             DataService ds = new DataService();
 
-             int k, h;
+             int k, time;
              k = 14638;
-            h = k / 3600;
-             var res = ds.SecondsToHours(h);
-            Assert.AreEqual(4, res);
-            //
-           // int k;
-           // k = 14638;
-
-           // int.TryParse( out k) && (k >= 0) && (k < 86400)))
-                
-       // var res = ds.SecondsToHours(k);
-           // Assert.AreEqual(4, res);
-
+             time = k / 3600;
+             var res = ds.SecondsToHours(time);
+             Assert.AreEqual(4, res);
         }
     }
 }
