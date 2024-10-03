@@ -6,6 +6,7 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4.Lib
         public int SecondsToHours(int time)
         {
             return time / 3600;
+
         }
     }
 }

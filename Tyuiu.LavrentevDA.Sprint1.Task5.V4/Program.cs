@@ -28,8 +28,6 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4
 
             Console.WriteLine("Введите секунды суток:");
             k = Convert.ToInt32(Console.ReadLine());
-
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");

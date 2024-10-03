@@ -14,6 +14,7 @@ namespace Tyuiu.LavrentevDA.Sprint1.Task5.V4.Test
              time = k / 3600;
              var res = ds.SecondsToHours(time);
              Assert.AreEqual(4, res);
+
         }
     }
 }
